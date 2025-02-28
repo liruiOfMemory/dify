@@ -484,8 +484,8 @@ const translation = {
   about: {
     changeLog: '更新日誌',
     updateNow: '現在更新',
-    nowAvailable: 'Dify {{version}} 現已可用。',
-    latestAvailable: 'Dify {{version}} 已是最新版本。',
+    nowAvailable: '小云智问 {{version}} 現已可用。',
+    latestAvailable: '小云智问 {{version}} 已是最新版本。',
   },
   appMenus: {
     overview: '監控',

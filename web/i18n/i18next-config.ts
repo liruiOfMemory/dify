@@ -36,7 +36,7 @@ const loadLangResources = (lang: string) => ({
 
 // Automatically generate the resources object
 const resources = LanguagesSupported.reduce((acc: any, lang: string) => {
-  acc[lang] = loadLangResources(lang)
+  acc[lang] = loadLangResources('zh-Hans')
   return acc
 }, {})
 

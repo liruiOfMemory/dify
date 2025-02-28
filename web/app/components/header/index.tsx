@@ -59,8 +59,8 @@ const Header = () => {
         </div>}
         {
           !isMobile
-          && <div className='flex w-64 p-2 pl-3 gap-1.5 items-center shrink-0 self-stretch'>
-            <Link href="/apps" className='flex w-8 h-8 items-center justify-center gap-2 shrink-0'>
+          && <div className='flex flex-3 w-180 p-2 pl-3 gap-1.5 items-center shrink-0 self-stretch'>
+            <Link href="/apps" className='flex w-50 h-8 items-center justify-center gap-2 shrink-0'>
               <LogoSite className='object-contain' />
             </Link>
             <div className='font-light text-divider-deep'>/</div>
@@ -85,10 +85,10 @@ const Header = () => {
       {
         !isMobile && (
           <div className='flex items-center'>
-            {!isCurrentWorkspaceDatasetOperator && <ExploreNav className={navClassName} />}
+            {/* {!isCurrentWorkspaceDatasetOperator && <ExploreNav className={navClassName} />} */}
             {!isCurrentWorkspaceDatasetOperator && <AppNav />}
             {(isCurrentWorkspaceEditor || isCurrentWorkspaceDatasetOperator) && <DatasetNav />}
-            {!isCurrentWorkspaceDatasetOperator && <ToolsNav className={navClassName} />}
+            {/* {!isCurrentWorkspaceDatasetOperator && <ToolsNav className={navClassName} />} */}
           </div>
         )
       }

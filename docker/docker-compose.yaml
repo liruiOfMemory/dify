@@ -410,6 +410,7 @@ x-shared-env: &shared-api-worker-env
   MARKETPLACE_ENABLED: ${MARKETPLACE_ENABLED:-true}
   MARKETPLACE_API_URL: ${MARKETPLACE_API_URL:-https://marketplace.dify.ai}
   FORCE_VERIFYING_SIGNATURE: ${FORCE_VERIFYING_SIGNATURE:-true}
+  EXPOSE_DB_PORT= ${EXPOSE_DB_PORT: 5432}
 
 services:
   # API service
